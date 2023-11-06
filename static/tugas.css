@@ -1,0 +1,132 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(119, 163, 245);
+  }
+  nav h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+    .active {
+      background-color: blue;
+    }
+    .content {
+      text-align: center;
+      margin-top: 25px;
+    }
+   
+  
+  a {
+    text-decoration: none;
+  }
+  body {
+    background: -webkit-linear-gradient(bottom, #2dbdb1, #0554bb);
+    background-repeat: no-repeat;
+  }
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+  }
+  #forgot-pass {
+    color: blue;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+  }
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  #signup {
+    color: blue;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  #submit-btn {
+    background: -webkit-linear-gradient(right, #40b3cf, blue);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px blue;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px blue;
+  }
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #7be9f7, #0a97e9);
+    height: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #7ba6f7, #2e97c0);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+  }
+ 
